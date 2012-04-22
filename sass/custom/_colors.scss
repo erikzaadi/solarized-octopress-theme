@@ -9,7 +9,7 @@ $sol_base2:     #eee8d5;
 $sol_base3:     #fdf6e3;
 
 $sol : light; // light or dark -  Recommended: set $solarized to the opposite of this
-$solarized : dark;
+$solarized : dark; // code syntax highlighting theme
 
 @if $sol == dark {
 
