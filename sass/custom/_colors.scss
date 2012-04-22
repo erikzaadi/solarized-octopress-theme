@@ -1,0 +1,78 @@
+//solarized base colors
+$sol_base03:    #002b36;
+$sol_base02:    #073642;
+$sol_base01:    #586e75;
+$sol_base00:    #657b83;
+$sol_base0:     #839496;
+$sol_base1:     #93a1a1;
+$sol_base2:     #eee8d5;
+$sol_base3:     #fdf6e3;
+
+$sol : light; // light or dark -  Recommended: set $solarized to the opposite of this
+$solarized : dark;
+
+@if $sol == dark {
+
+  $_sol_base03: $sol_base03;
+  $_sol_base02: $sol_base02;
+  $_sol_base01: $sol_base01;
+  $_sol_base00: $sol_base00;
+  $_sol_base0:  $sol_base0;
+  $_sol_base1:  $sol_base1;
+  $_sol_base2:  $sol_base2;
+  $_sol_base3:  $sol_base3;
+
+  $sol_base03:  $_sol_base3;
+  $sol_base02:  $_sol_base2;
+  $sol_base01:  $_sol_base1;
+  $sol_base00:  $_sol_base0;
+  $sol_base0:   $_sol_base00;
+  $sol_base1:   $_sol_base01;
+  $sol_base2:   $_sol_base02;
+  $sol_base3:   $_sol_base03;
+}
+
+$sol_yellow:    #b58900;
+$sol_orange:    #cb4b16;
+$sol_red:       #dc322f;
+$sol_magenta:   #d33682;
+$sol_violet:    #6c71c4;
+$sol_blue:      #268bd2;
+$sol_cyan:      #2aa198;
+$sol_green:     #859900;
+
+$noise-bg: none;
+$img-border: none;
+
+
+// Main Link Colors
+$link-color: $sol_yellow;
+$link-color-hover: $sol_base01;
+$link-color-visited: $link-color;
+$link-color-active: $link-color-hover;
+// Main Section Colors
+$main-bg: $sol_base3;
+$page-bg: $sol_base3;
+$article-border: none;
+$header-bg: $sol_base3;
+$title-color: $sol_yellow;
+$subtitle-color: $sol_base0;
+$text-color: $sol_base1;
+$text-color-light: $sol_base0;
+///* Navigation */
+$nav-bg: $sol_base1;
+$nav-bg-back: $sol_base1;
+$nav-color: $sol_base01;
+$nav-color-hover: $sol_base2;
+/* Sidebar colors */
+$sidebar-bg: darken($sol_base3, 1);
+$sidebar-color: $sol_yellow;
+// Footer
+$footer-bg: $sol_base2;
+$footer-bg-front:$sol_base01;
+$footer-bg-back:  none;
+$footer-color: $sol_base01;
+$footer-border-top: none;
+$footer-link-color: $link-color;
+$footer-link-color-hover: $link-color-hover;
+$page-border-bottom: none;
