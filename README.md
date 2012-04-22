@@ -10,19 +10,17 @@ git clone http://github.com/erikzaadi/solarized-octopress-theme solarized
 cd ..
 rake install["solarized"]
 ```
-_zsh users: change the last line to
+_zsh users_: change the last line to
 ```sh
 rake install\['solarized'\]
 ```
 
 # Customize
 
-To toggle between light and dark mode, edit _sass/custom/_colors.scss_ and change *$sol* and *$solarized*.
+To toggle between light and dark mode, edit _sass/custom/_colors.scss_ and change **$sol** and **$solarized**.
 
-# Screenshot
+# Screenshots
 
-## Dark
-![http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/dark.png)
+![Dark](http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/dark.png)
 
-## Light
-![http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/light.png)
+![Light](http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/light.png)
