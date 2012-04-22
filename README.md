@@ -21,6 +21,6 @@ To toggle between light and dark mode, edit _sass/custom/_colors.scss_ and chang
 
 # Screenshots
 
-![Dark](http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/dark.png)
+![Dark](https://github.com/erikzaadi/solarized-octopress-theme/raw/master/images/dark.png)
 
-![Light](http://raw.github.com/erikzaadi/solarized-octopress-theme/master/images/light.png)
+![Light](https://github.com/erikzaadi/solarized-octopress-theme/raw/master/images/light.png)
