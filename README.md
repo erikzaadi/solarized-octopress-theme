@@ -1,4 +1,4 @@
-# [Solarized](http://ethanschoonover.com/solarized) theme for [Octopress](http://octopress.org/)
+## [Solarized](http://ethanschoonover.com/solarized) theme for [Octopress](http://octopress.org/)
 
 ### Based on the [Solarized](http://ethanschoonover.com/solarized) website and the classic theme
 
@@ -9,17 +9,17 @@ git clone http://github.com/erikzaadi/solarized-octopress-theme .themes/solarize
 rake install["solarized"]
 ```
 _zsh users_: change the last line to
-```zsh
+```sh
 rake install\['solarized'\]
 ```
 
 # Customize
 
-To toggle between light and dark mode, edit _sass/custom/_colors.scss_ and change **$sol** and **$solarized**:
+To toggle between light and dark mode, edit *sass/custom/_colors.scss* and change **$sol** and **$solarized**:
 ```scss
 
-$sol : light; // light or dark -  Recommended: set $solarized (code syntax highlighting theme) to the opposite of this
-$solarized : dark;
+$sol : light; // light or dark - Recommended: set $solarized  to the opposite of this
+$solarized : dark; // (code syntax highlighting theme)
 
 ```
 
