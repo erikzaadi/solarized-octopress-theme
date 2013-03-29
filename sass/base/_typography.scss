@@ -2,9 +2,9 @@ $blockquote: $type-border !default;
 $sans: "Dosis", "Helvetica Neue", Arial, sans-serif !default;
 $serif: "Exo", Georgia, Times, "Times New Roman", serif !default;
 $mono: "Inconsolata", Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
-$heading-font-family: $serif;
-$header-title-font-family: $sans;
-$header-subtitle-font-family: $mono;
+$heading-font-family: $serif !default;
+$header-title-font-family: $sans !default;
+$header-subtitle-font-family: $mono !default;
 
 // Fonts
 .heading {
